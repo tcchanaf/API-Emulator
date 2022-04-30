@@ -1,0 +1,7 @@
+IN_MSG_TYPE,OUT_MSG_TYPE,GETTER_METHOD_NAMES,REGEX,RESPONSE_OR_REQUEST_JSON_FILE_PATH,,
+APIRequest,APIResponse,getRequestMessage_getMessage,send fail response,target/classes/dummy_response/Fail_json.json
+APIRequest,APIRequest,getRequestMessage_getMessage,error skip sending request,
+default,APIRequest,default,,target/classes/dummy_response/API_Request_from_Emulator.json
+APIRequest,file_content,getRequestMessage_getMessage,file name error,target/classes/dummy_response/Fail_filename_error.json
+default,APIResponse,default,send success response,target/classes/dummy_response/Success_api_response.json
+default,file_content,default,send file,target/classes/dummy_response/uniqueFileName.meta
